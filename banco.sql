@@ -9,4 +9,9 @@ senha					VARCHAR(255) NOT NULL,
 nivel					CHAR(1) NOT NULL,
 PRIMARY KEY(id_login)
 );
+
+INSERT INTO tb_login (usuario, senha, nivel) VALUES 
+("admin","123","a"),
+("user","321","u");
+
 SELECT * FROM tb_login;
