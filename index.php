@@ -1,3 +1,6 @@
+<?php
+include_once 'conexao.php';
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,6 +9,6 @@
     <title>Exemplo Login Seguro</title>
 </head>
 <body>
-    
+    aaaa
 </body>
 </html>
