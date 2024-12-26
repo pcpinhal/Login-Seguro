@@ -14,13 +14,13 @@ include_once 'conexao.php';
         <h2>Login</h2>
         <div class="input-container">
             <img src="img/user.png" alt="">
-            <input type="text" placeholder="Usuário">
+            <input type="text" name="txtUsuario" placeholder="Usuário">
         </div>
         <div class="input-container">
             <img src="img/lock-2.png" alt="">
-            <input type="password" placeholder="Senha">
+            <input type="password" name="txtSenha" placeholder="Senha">
         </div>
-        <button class="login-button">Entrar</button>
+        <input type="submit" class="login-button" name="btnEntrar" value="Entrar">
         <h5>Não tem cadastro, crie <a href="cadastro.php">aqui</a>.</h5>
 </form>
     <script src="script.js"></script>

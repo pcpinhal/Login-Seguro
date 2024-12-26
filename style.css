@@ -48,7 +48,7 @@
 }
 .input-container input {
 	width: 85%;
-	padding: 10px 10px 10px 40px; /* Espaço para a imagem */
+	padding: 10px 10px 10px 40px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	font-size: 16px;
