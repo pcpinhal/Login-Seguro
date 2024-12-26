@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+@font-face {
+	font-family: 'Eater';
+	src: url('font/Eater-Regular.ttf') format('truetype'); 
+}
+.body_index{
+    background-image: url('img/fundo_login.jpg');
+    background-size: cover;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#login{
+	width: 400px;
+	height: 340px;
+	border-radius: 50px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+#login h2{
+	text-align: center;
+	margin: 20px;
+	font-family: Eater;
+	font-size: 50px;
+	color: green;
+}
+#login h5{
+	text-align: center;	
+	margin: 10px;
+}
+.input-container {
+	position: relative;
+	margin: 20px;
+
+}
+.input-container img {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20px;
+	height: 20px;
+}
+.input-container input {
+	width: 85%;
+	padding: 10px 10px 10px 40px; /* Espaço para a imagem */
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.login-button {
+	width: 95%;
+	margin: 10px;
+	padding: 10px;
+	background-color: green;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.login-button:hover {
+	background-color: darkgreen;
+}

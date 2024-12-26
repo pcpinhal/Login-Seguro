@@ -30,7 +30,7 @@ try{
     {
         echo "
             <script>alert('Ops, Algo de errado não esta certo com o Bando de Dados.');</script>
-            <p>ERRO: 01 - Banco de dados com problemas...</p>
+            <p>ERRO: 01 - Conexão com o Banco de dados com problemas...</p>
         ";
         exit;
         die;
