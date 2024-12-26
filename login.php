@@ -23,7 +23,7 @@ try{
             $resp2 = mysqli_execute_query($conexao, $sql);
             if($dados2 = mysqli_fetch_array($resp2))
             {
-                echo "achou a senha: $dados2[senha]";
+                echo "achou a senha: $dados2[senha]"; //aqui usuario e sneha correto, o q fazer ?
             }else{
                 echo "nao achou a senha/senha incorreta";
             }
